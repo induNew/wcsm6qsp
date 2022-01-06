@@ -11,7 +11,7 @@ public class LinkTextLocator {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("file:///C:/Users/HP/Desktop/htmlwcsm6/link.html");
-		driver.findElement(By.linkText("click here to visit google")).click();//text is too long
+		driver.findElement(By.partialLinkText("google")).click();//text is too long
 	}
 
 }

@@ -23,6 +23,8 @@ public class NavigateMethod {
 		driver.navigate().back();// to come back to previous page
 		Thread.sleep(3000);
 		driver.navigate().forward();//to go to the next page
+		String curul = driver.getCurrentUrl();
+		System.err.println(curul);
 		Thread.sleep(3000);
 		driver.navigate().refresh();//to refresh the current page
 
