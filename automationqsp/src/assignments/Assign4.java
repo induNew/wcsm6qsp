@@ -2,7 +2,9 @@ package assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Assign4 {
 	
@@ -24,6 +26,12 @@ public class Assign4 {
 		driver.findElement(By.linkText("Logo & Color Scheme")).click();
 		Thread.sleep(4000);
 		driver.findElement(By.id("uploadNewLogoOption")).click();
+		
+        WebElement target = driver.findElement(By.name("formCustomInterfaceLogo.logo"));
+		
+		Actions act = new Actions(driver);
+		act.doubleClick(target).perform();
+		
 	}
 
 }

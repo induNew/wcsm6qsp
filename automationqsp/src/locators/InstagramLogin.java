@@ -14,11 +14,11 @@ public class InstagramLogin {
 		driver.get("https://www.instagram.com");
 		Thread.sleep(5000);
 		driver.findElement(By.name("username")).sendKeys("suraj");
-		Thread.sleep(1000);
+		
 		driver.findElement(By.name("password")).sendKeys("gvsbvhwbdsy");
-		Thread.sleep(1000);
+		
 		driver.findElement(By.cssSelector("button[class*='L3NKy']")).click();
-		Thread.sleep(1000);
+		
 		
 	}
 
