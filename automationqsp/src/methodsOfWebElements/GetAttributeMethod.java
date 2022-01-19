@@ -16,6 +16,7 @@ public class GetAttributeMethod {
 		WebElement checkBoxOfAutomation = driver.findElement(By.id("i6"));
 		String valueofAttribute = checkBoxOfAutomation.getAttribute("type");
 		System.out.println(valueofAttribute);
+		System.out.println("done");
 	
 
 	}
