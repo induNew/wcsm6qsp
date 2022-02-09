@@ -16,9 +16,11 @@ public class NotificationPopup {
 		ChromeOptions co = new ChromeOptions();
 		
 		co.addArguments("--disable-notifications");
+		co.addArguments("-start-maximized");
+		
 		WebDriver driver=new ChromeDriver(co);
 		
-		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		
 		

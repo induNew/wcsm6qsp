@@ -18,6 +18,8 @@ public class HandlingTheDropdown1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.get("file:///C:/Users/HP/Desktop/htmlwcsm6/singleSelectDropdown.html");
+		
+		
 		WebElement element = driver.findElement(By.id("menu"));
 		Select sel = new Select(element);
 		sel.selectByIndex(7);// index starts with zero 
