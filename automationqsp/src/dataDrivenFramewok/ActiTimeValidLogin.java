@@ -7,6 +7,9 @@ import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ActiTimeValidLogin {
 	
@@ -28,6 +31,11 @@ public class ActiTimeValidLogin {
 		driver.findElement(By.name("pwd")).sendKeys(password);
 		
 		driver.findElement(By.id("loginButton")).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.titleContains("Enter"));
+		
+		flib.writeExcelData("./data/TestData.xlsx", "validcreds", 1, 2, "pass");
 	
 		
 		

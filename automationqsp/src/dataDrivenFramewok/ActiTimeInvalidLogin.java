@@ -8,6 +8,8 @@ import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ActiTimeInvalidLogin {
 	
@@ -31,7 +33,20 @@ public class ActiTimeInvalidLogin {
 			Thread.sleep(3000);
 			driver.findElement(By.id("loginButton")).click();
 			Thread.sleep(2000);
+			
+			try
+			{
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(ExpectedConditions.titleContains("Enter"));
+			}
+			catch (Exception e) {
+				flib.writeExcelData("./data/TestData.xlsx", "invalidcreds", 1, 2, "pass");
+			}
+			
+			
 			driver.findElement(By.name("username")).clear();
+			
+			
 			
 			
 		}
