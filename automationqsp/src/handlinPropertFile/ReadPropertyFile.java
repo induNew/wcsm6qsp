@@ -14,7 +14,7 @@ public class ReadPropertyFile {
 		FileInputStream fis = new FileInputStream("./data/config.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
-		String value = prop.getProperty("browser");
+		String value = prop.getProperty("suraj", "enter the valid key");
 		System.out.println(value);
 	}
 
