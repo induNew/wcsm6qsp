@@ -19,7 +19,7 @@ public class ActiTimeValidLogin extends BaseTest{
 		driver.findElement(By.name("pwd")).sendKeys(password);
 
 		driver.findElement(By.id("loginButton")).click();
-		//suraj
+	
 
 
 	}
