@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[h method]]>
+    </line>
+    <line>
+      <![CDATA[b method]]>
+    </line>
+    <line>
+      <![CDATA[c method]]>
+    </line>
+    <line>
+      <![CDATA[x method]]>
+    </line>
+    <line>
+      <![CDATA[j method]]>
+    </line>
+    <line>
+      <![CDATA[q method]]>
+    </line>
+    <line>
+      <![CDATA[w method]]>
+    </line>
+    <line>
+      <![CDATA[g method]]>
+    </line>
+    <line>
+      <![CDATA[p method]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+      <class name="testNG1.NewId">
+        <test-method status="PASS" signature="h()[pri:-1, instance:testNG1.NewId@53f65459]" name="h" duration-ms="15" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[h method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- h -->
+        <test-method status="PASS" signature="c()[pri:0, instance:testNG1.NewId@53f65459]" name="c" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[c method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method status="PASS" signature="x()[pri:1, instance:testNG1.NewId@53f65459]" name="x" duration-ms="14" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[x method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- x -->
+        <test-method status="PASS" signature="b()[pri:0, instance:testNG1.NewId@53f65459]" name="b" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[b method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="j()[pri:2, instance:testNG1.NewId@53f65459]" name="j" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[j method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- j -->
+        <test-method status="PASS" signature="q()[pri:2, instance:testNG1.NewId@53f65459]" name="q" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[q method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- q -->
+        <test-method status="PASS" signature="g()[pri:3, instance:testNG1.NewId@53f65459]" name="g" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[g method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="w()[pri:2, instance:testNG1.NewId@53f65459]" name="w" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[w method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- w -->
+        <test-method status="PASS" signature="p()[pri:3, instance:testNG1.NewId@53f65459]" name="p" duration-ms="0" started-at="2022-02-18T09:54:56 IST" finished-at="2022-02-18T09:54:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[p method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- p -->
+      </class> <!-- testNG1.NewId -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
