@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class TestActiTimeLogout extends BaseTest {
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		BaseTest bt = new BaseTest();
 		bt.openBrowser();
 		LoginPage lp = new LoginPage(driver);
