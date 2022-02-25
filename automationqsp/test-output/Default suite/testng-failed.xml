@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGFlags.Flag5">
+      <class name="takesScreenShotDynamically.TestOrangeHRM">
         <methods>
-          <include name="signin"/>
+          <include name="testOrangeHRM3"/>
+          <include name="setUp"/>
+          <include name="testOrangeHRM0"/>
+          <include name="tearDown"/>
+          <include name="testOrangeHRM1"/>
         </methods>
-      </class> <!-- testNGFlags.Flag5 -->
+      </class> <!-- takesScreenShotDynamically.TestOrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
