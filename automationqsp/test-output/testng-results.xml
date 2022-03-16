@@ -1,175 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="95469" started-at="2022-02-24T09:27:53 IST" finished-at="2022-02-24T09:29:28 IST">
+  <suite name="Default suite" duration-ms="80459" started-at="2022-02-25T09:00:06 IST" finished-at="2022-02-25T09:01:27 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="95469" started-at="2022-02-24T09:27:53 IST" finished-at="2022-02-24T09:29:28 IST">
-      <class name="takesScreenShotDynamically.TestOrangeHRM">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="setUp" is-config="true" duration-ms="19850" started-at="2022-02-24T09:27:53 IST" finished-at="2022-02-24T09:28:12 IST">
+    <test name="Default test" duration-ms="80459" started-at="2022-02-25T09:00:06 IST" finished-at="2022-02-25T09:01:27 IST">
+      <class name="testNG1.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="setUp" is-config="true" duration-ms="15796" started-at="2022-02-25T09:00:06 IST" finished-at="2022-02-25T09:00:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testOrangeHRM0()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="testOrangeHRM0" duration-ms="159" started-at="2022-02-24T09:28:12 IST" finished-at="2022-02-24T09:28:13 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at takesScreenShotDynamically.TestOrangeHRM.testOrangeHRM0(TestOrangeHRM.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="testOrangeHRM(java.lang.String,java.lang.String)[pri:0, instance:testNG1.NewTest@59e5ddf]" name="testOrangeHRM" duration-ms="4936" started-at="2022-02-25T09:00:22 IST" data-provider="actiTimeInvalidCredentials" finished-at="2022-02-25T09:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOrangeHRM0 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="tearDown" is-config="true" duration-ms="1335" started-at="2022-02-24T09:28:29 IST" finished-at="2022-02-24T09:28:30 IST">
+        </test-method> <!-- testOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="621" started-at="2022-02-25T09:00:27 IST" finished-at="2022-02-25T09:00:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="setUp" is-config="true" duration-ms="11879" started-at="2022-02-24T09:28:30 IST" finished-at="2022-02-24T09:28:42 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="setUp" is-config="true" duration-ms="9240" started-at="2022-02-25T09:00:28 IST" finished-at="2022-02-25T09:00:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testOrangeHRM1()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="testOrangeHRM1" duration-ms="14" started-at="2022-02-24T09:28:42 IST" finished-at="2022-02-24T09:28:42 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at takesScreenShotDynamically.TestOrangeHRM.testOrangeHRM1(TestOrangeHRM.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="testOrangeHRM(java.lang.String,java.lang.String)[pri:0, instance:testNG1.NewTest@59e5ddf]" name="testOrangeHRM" duration-ms="4083" started-at="2022-02-25T09:00:37 IST" data-provider="actiTimeInvalidCredentials" finished-at="2022-02-25T09:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOrangeHRM1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="tearDown" is-config="true" duration-ms="1218" started-at="2022-02-24T09:29:00 IST" finished-at="2022-02-24T09:29:01 IST">
+        </test-method> <!-- testOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="195" started-at="2022-02-25T09:00:41 IST" finished-at="2022-02-25T09:00:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="setUp" is-config="true" duration-ms="8547" started-at="2022-02-24T09:29:01 IST" finished-at="2022-02-24T09:29:09 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="setUp" is-config="true" duration-ms="8847" started-at="2022-02-25T09:00:41 IST" finished-at="2022-02-25T09:00:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testOrangeHRM3()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="testOrangeHRM3" duration-ms="17" started-at="2022-02-24T09:29:09 IST" finished-at="2022-02-24T09:29:09 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [OrangeHRM234] but found [OrangeHRM]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at takesScreenShotDynamically.TestOrangeHRM.testOrangeHRM3(TestOrangeHRM.java:50)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="testOrangeHRM(java.lang.String,java.lang.String)[pri:0, instance:testNG1.NewTest@59e5ddf]" name="testOrangeHRM" duration-ms="4182" started-at="2022-02-25T09:00:50 IST" data-provider="actiTimeInvalidCredentials" finished-at="2022-02-25T09:00:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin$123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOrangeHRM3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:takesScreenShotDynamically.TestOrangeHRM@27a8c74e]" name="tearDown" is-config="true" duration-ms="850" started-at="2022-02-24T09:29:27 IST" finished-at="2022-02-24T09:29:28 IST">
+        </test-method> <!-- testOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="148" started-at="2022-02-25T09:00:54 IST" finished-at="2022-02-25T09:00:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- takesScreenShotDynamically.TestOrangeHRM -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="setUp" is-config="true" duration-ms="14499" started-at="2022-02-25T09:00:54 IST" finished-at="2022-02-25T09:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOrangeHRM(java.lang.String,java.lang.String)[pri:0, instance:testNG1.NewTest@59e5ddf]" name="testOrangeHRM" duration-ms="4477" started-at="2022-02-25T09:01:09 IST" data-provider="actiTimeInvalidCredentials" finished-at="2022-02-25T09:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="184" started-at="2022-02-25T09:01:13 IST" finished-at="2022-02-25T09:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="setUp" is-config="true" duration-ms="8805" started-at="2022-02-25T09:01:13 IST" finished-at="2022-02-25T09:01:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOrangeHRM(java.lang.String,java.lang.String)[pri:0, instance:testNG1.NewTest@59e5ddf]" name="testOrangeHRM" duration-ms="4206" started-at="2022-02-25T09:01:22 IST" data-provider="actiTimeInvalidCredentials" finished-at="2022-02-25T09:01:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad min]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG1.NewTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="193" started-at="2022-02-25T09:01:26 IST" finished-at="2022-02-25T09:01:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG1.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
