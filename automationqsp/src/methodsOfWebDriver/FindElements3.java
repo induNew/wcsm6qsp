@@ -18,7 +18,7 @@ public class FindElements3 {
 		WebElement googleSearchBox = driver.findElement(By.name("q"));
 		googleSearchBox.sendKeys("bike");
 		Thread.sleep(8000);
-		List<WebElement> suggessionOfBike = driver.findElements(By.xpath("//div[@class='wM6W7d']/span"));
+		List<WebElement> suggessionOfBike = driver.findElements(By.xpath("//div[@class='wM6W7d']/input"));
 		
 		for(int i=0;i<suggessionOfBike.size();i++)
 		{
