@@ -18,6 +18,7 @@ public class ScrollUp {
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		driver.get("https://www.selenium.dev");
 		Thread.sleep(4000);
+		
 		JavascriptExecutor jse=(JavascriptExecutor)driver;
 		//scroll down
 		jse.executeScript("window.scrollBy(0,500)");
